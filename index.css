@@ -1,0 +1,150 @@
+#main{
+    background-image: linear-gradient(to bottom right, Black, #00062D, #3067D6);
+    border:7px solid #3a6aee ;
+    width: 60%;
+    margin:auto;
+    padding: 35px;
+    display: flex;
+    border-radius: 10px; 
+}
+#part2{
+    margin:40px;
+}
+#Ironmanimg{
+    width: 270px;
+    border-radius: 15px;
+    border: 5px solid #3a6aee ;
+    box-shadow: #F2FBFA;    
+}
+h1{
+    color:#F2FBFA;
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color:#3a6aee;
+    
+}
+#main>div:last-child{
+    color: white;
+    font-size: 20px;
+}
+li::marker{
+    content: '☑️';
+    font-size: 1.2em;
+    color: #5F1318;
+}
+#edu::marker{
+    content:'📑';
+    font-size: 1.2em;
+}
+h3{
+    text-decoration: underline;
+}
+.info{
+    color: white;
+    font-size: 20px;
+}
+#flex{
+    display:flex;
+    justify-content: space-between;
+}
+#flex>div{
+    box-shadow: rgba(122, 170, 225, 0.3) 0px 0px 0px 3px;
+    padding:15px;
+    border-radius: 20px;
+    border-color: white ;
+}
+#img2{
+    margin-top: 300px;
+    border:4px solid #F2FBFA;
+}
+.bullet::marker{
+    content:'🤖';
+    font-size: 1.2em;
+}
+.laptop::marker{
+    content:'💻';
+    font-size: 1.2em;
+}
+#name{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    width:auto;
+    height:auto;
+    font-size:30px;
+    padding:10px;
+    color:white;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 520px) {
+    #main {
+        width: 90%;
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+    #part2 {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #main {
+        width: 90%;
+        padding: 15px;
+        flex-direction: column;
+    }
+    
+    #part2 {
+        margin: 15px;
+    }
+    
+    #Ironmanimg {
+        width: 180px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin-left: 20px;
+    }
+    
+    .info, #flex > div {
+        font-size: 16px;
+    }
+    
+    #img2 img {
+        width: 100%;
+    }
+}@media screen and (max-width: 320px) {
+    #main {
+        width: 90%;
+        padding: 15px;
+        flex-direction: column;
+    }
+    
+    #part2 {
+        margin: 15px;
+    }
+    
+    #Ironmanimg {
+        width: 180px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin-left: 20px;
+    }
+    
+    .info, #flex > div {
+        font-size: 16px;
+    }
+    
+    #img2 img {
+        width: 100%;
+    }
+}
